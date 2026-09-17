@@ -1,0 +1,4 @@
+9/17/2026
+Prompt: I have a dataset with the following characteristics being used to predict birthrate. What is the proper way to handle these particular columns missing values? PctSomeCol18_24 is missing 1,828 values, PctPrivateCoverageAlone is missing 480 values, PctEmployed16_Over is missing 123 values. Each data sample has 35 features. The dataset includes 2437 samples.
+
+Response: Given 2,437 samples, the missingness rates are: Feature	Missing	% Missing	Recommended handling PctSomeCol18_24	1,828	75.0%	Drop the feature PctPrivateCoverageAlone	480	19.7%	Impute PctEmployed16_Over	123	5.0%	Impute
