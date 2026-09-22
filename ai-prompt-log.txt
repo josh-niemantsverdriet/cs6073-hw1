@@ -1,0 +1,18 @@
+AI Prompt Log
+
+The prompts below are concise paraphrases of the questions used during this assignment. Response summaries are included instead of full responses.
+
+1. How should I handle a feature with many missing values and two features with fewer missing values?
+Response summary: Drop PctSomeCol18_24 because it has about 75% missing values. Fill missing PctEmployed16_Over and PctPrivateCoverageAlone values with their medians.
+
+2. How should I prepare numeric and categorical columns before training these models?
+Response summary: Standardize numeric features and one-hot encode binnedInc. Exclude id and Geography from model inputs because id is an identifier and test county names do not occur in training data.
+
+3. How do I create a Kaggle submission CSV that matches the provided sample format?
+Response summary: Train the selected model on all cleaned training rows, predict TARGET_deathRate for test.csv, and save the id and TARGET_deathRate columns as submission.csv.
+
+4. How can I compare MSE with a different regression loss function?
+Response summary: Compare SGD regression using squared error (MSE) with Huber loss, then report test MSE and R-squared for both.
+
+5. How do I create one loss plot containing every model?
+Response summary: Save training MSE for each epoch and plot the six model curves together with labeled axes and a legend.

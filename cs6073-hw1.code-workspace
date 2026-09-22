@@ -1,9 +1,7 @@
 {
-	"folders": [
-		{
-			"name": "cs6073-hw1",
-			"path": "."
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
 }
